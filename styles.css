@@ -1,0 +1,82 @@
+body {
+  background-image:url("ladakh2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#calculator{
+    position: absolute;
+    left: 450px;
+    top:50px;
+    width:320px;
+    height:470px;
+    background-color:cornsilk;
+    border:1px solid black;
+    border-radius: 5px;
+}
+#result{
+    height:100px;
+    background-color: white;
+    border:1px solid black;
+}
+#keypad {
+    height: 400px;
+}
+#output {
+    text-align: right;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    height: 15px;
+}
+#input {
+    text-align: right;
+    font-size: 120%;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding-top:10px;
+    height: 10px;
+    
+}
+.operator,.number {
+    height: 50px;
+    width:28%;
+    margin: 5px;;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.operator{
+    background-color: gainsboro;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+.operator:active,.number:active{
+    font-size: 110%;
+}
+button:nth-child(1)
+{
+    background-color: rgb(12, 231, 166);
+}
+button:nth-child(2)
+{
+    background-color: rgb(12, 231, 166);
+}
+button:nth-child(3)
+{
+    background-color: rgb(12, 231, 166);
+}
+
+button:nth-child(3n+6)
+{
+    background-color: rgb(248, 48, 13);
+    font-size: 130%;
+}
+
+
